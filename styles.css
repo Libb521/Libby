@@ -21,10 +21,6 @@ html{
     background-size: cover;
     z-index: -1;
 }
-
-nav ul li{
-    display: inline-block;
-}
 #logo{
     height: 50;
     width: 50;
@@ -33,7 +29,7 @@ nav ul li{
 h2{
     text-align: center;
 }
-Container{
+#container{
     width: 80%;
     border: 0 auto;
     z-index: 1;
@@ -51,6 +47,9 @@ head{
 logo{
     float: left;
     padding: 10px 0;
+}
+nav ul li{
+    display: inline-block;
 }
 nav{
     float: right;
@@ -86,15 +85,20 @@ nav>ul>li>a:hover {
     color: black;
     }
 #one{
-   margin-left: 40%;
+   margin-left: 1px;
+   align-content: center;
 
 }
 
 #about{
     background-color: coral;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
+    margin-left: 250px;
+    text-align: center;
+    font-family: 'Unna', serif;
+
 }
 #logo{
     height: 80px;
@@ -104,7 +108,6 @@ nav>ul>li>a:hover {
 h3{
     text-decoration-line: underline;
  
-}
 }
 .content{
     position:relative;
@@ -134,13 +137,7 @@ h3{
 .dropdown:hover .services{
     background-color: chocolate;
 }
-.contacts{
-    background-color: rgb(154, 201, 25);
-    color:white;
-    padding:16px;
-    font-size: 15px;
-    border: none;
-}
+
 .contact{
     position:relative;
     display:inline-block;
@@ -213,7 +210,10 @@ footer{
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: aqua;
+    background-color: coral;
+    margin-left: 250px;
+    margin-top: 10px;
+    margin-right: 380px;
 }
 .Libby{
     left: 0;
@@ -224,6 +224,8 @@ footer{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 1%;
+    margin-left: 250px;
+    font-family: 'Actor', sans-serif;
 }
 
 .first{
@@ -232,6 +234,7 @@ footer{
     background-color: coral;
     border-radius: 6%;
     text-align: center;
+    box-shadow: 5px 5px black;
 }
 .second{
     margin-bottom: 1%;
@@ -239,6 +242,7 @@ footer{
     background-color: coral;
     border-radius: 6%;
     text-align: center;
+    box-shadow: 5px 5px black;
 }
 .third{
     margin-bottom: 1%;
@@ -246,6 +250,7 @@ footer{
     background-color: coral;
     border-radius: 6%;
     text-align: center;
+    box-shadow: 5px 5px black;
 }
 .fourth{
     margin-bottom: 1%;
@@ -253,6 +258,7 @@ footer{
     background-color: coral;
     border-radius: 6%;
     text-align: center;
+    box-shadow: 5px 5px black;
 }
 h4{
     text-align: center;
@@ -268,6 +274,8 @@ h4{
    margin-bottom: 1%; 
    image-orientation: from-image;
    background-color: coral;
+   margin-left: 250px;
+   font-family: 'El Messiri', sans-serif;
 }
 .south{
     margin-bottom: 1%;
@@ -279,8 +287,11 @@ h4{
 .service{
     background-color: coral;
     text-decoration-style: solid;
+    margin-left: 250px;
+    font-family: 'Unna', serif;
 }
 #contacts{
     background-color: coral;
     text-align: center;
+    margin-left: 250px;
 }
