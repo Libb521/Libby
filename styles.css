@@ -6,6 +6,7 @@ html{
     z-index: -1;
     background-color: black;
     position: relative;
+    overflow: hidden;
 
     }
 .color-overlay{
@@ -20,6 +21,7 @@ html{
     position: absolute;
     background-size: cover;
     z-index: -1;
+    overflow: hidden;
 }
 #logo{
     height: 50;
@@ -28,6 +30,7 @@ html{
 }
 h2{
     text-align: center;
+    overflow: hidden;
 }
 
 body{
@@ -35,6 +38,7 @@ body{
     margin: 10;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+    overflow: hidden;
 }
 head{
     background-color: azure;
@@ -46,6 +50,7 @@ nav img{
     border-radius: 5px;
     width: 140px;
     height: 100px;
+    overflow: hidden;
 }
 nav ul li{
     display: inline-block;
@@ -62,6 +67,7 @@ nav{
     height: 10%;
     z-index:1;
     padding-right: 3%;
+    overflow: hidden;
 }
 
 nav ul{
@@ -99,6 +105,7 @@ nav>ul>li>a:hover {
 #one{
    margin-left: 1px;
    align-content: center;
+   overflow: hidden;
 
 }
 
@@ -111,15 +118,18 @@ nav>ul>li>a:hover {
     font-family: 'Unna', serif;
     margin-top: 8%;
     padding-top: 2%;
+    overflow: hidden;
 }
 
 h3{
     text-decoration-line: underline;
+    overflow: hidden;
  
 }
 .content{
     position:relative;
     display:inline-block;
+    overflow: hidden;
 }
 .dropdown-content{
     display: none;
@@ -128,6 +138,7 @@ h3{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgb(189, 89, 89);
     z-index: 1;
+    overflow: hidden;
 }
 .dropdown-content a{
     color: rgb(78, 190, 44);
@@ -149,6 +160,7 @@ h3{
 .contact{
     position:relative;
     display:inline-block;
+    overflow: hidden;
 }
 .dropdown-content{
     display: none;
@@ -177,9 +189,7 @@ h3{
 footer ul li{
     display: inline-block;
 }
-footer{
-    text-align: center;
-}
+
 footer ul{
     margin: 0;
     padding: 0;
@@ -219,6 +229,8 @@ footer{
     padding-bottom: 5px;
     background-color: coral;
     margin-top: 10px;
+    text-align: center;
+    overflow: hidden;
 }
 .Libby{
     left: 0;
@@ -230,6 +242,7 @@ footer{
     margin-top: 10px;
     margin-bottom: 1%;
     font-family: 'Actor', sans-serif;
+    overflow: hidden;
 }
 
 .first{
@@ -239,6 +252,7 @@ footer{
     border-radius: 6%;
     text-align: center;
     box-shadow: 5px 5px black;
+    overflow: hidden;
 }
 .second{
     margin-bottom: 1%;
@@ -247,6 +261,7 @@ footer{
     border-radius: 6%;
     text-align: center;
     box-shadow: 5px 5px black;
+    overflow: hidden;
 }
 .third{
     margin-bottom: 1%;
@@ -255,6 +270,7 @@ footer{
     border-radius: 6%;
     text-align: center;
     box-shadow: 5px 5px black;
+    overflow: hidden;
 }
 .fourth{
     margin-bottom: 1%;
@@ -263,9 +279,11 @@ footer{
     border-radius: 6%;
     text-align: center;
     box-shadow: 5px 5px black;
+    overflow: hidden;
 }
 h4{
     text-align: center;
+    overflow: hidden;
 }
 .wines{
    text-align: center;
@@ -279,6 +297,7 @@ h4{
    image-orientation: from-image;
    background-color: coral;
    font-family: 'El Messiri', sans-serif;
+   overflow: hidden;
 }
 .south{
     margin-bottom: 1%;
@@ -286,19 +305,23 @@ h4{
     background-color: none;
     border-radius: 6%;
     text-align: center;
+    overflow: hidden;
 }
 .service{
     background-color: coral;
     text-decoration-style: solid;
     font-family: 'Unna', serif;
     margin-top: 150px;
+    overflow: hidden;
 }
 #contacts{
     background-color: coral;
     text-align: center;
     margin-top: 150px;
+    overflow: hidden;
 }
 .back{
     color: black;
     float: right;
+    overflow: hidden;
 }
