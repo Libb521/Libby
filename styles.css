@@ -272,12 +272,6 @@ h4{
     margin: 2%;
 }
 
-/*#Pinot{
-    height: 250%;
-    width: 200%;
-    margin: 10%;
-    margin-top: 30px;
-}*/
 .service{
     background-color: rgb(243, 156, 175);
     text-decoration-style: solid;
@@ -476,7 +470,17 @@ table td{
 
  }
  #Pinot{
+     width: 40%;
      height: 300px;
-     width: 300px;
-     margin: 2%;
- }
+     margin: 2%;  
+ } 
+@media only screen and (max-width: 1000px){
+    #primary{width:1000px;}
+    #secondary{width:30px;margin-left:3%;}
+}
+
+@ media only screen and (max-width: 768px){
+    #primary {width:100%;}
+    #secondary {width:100%; margin:0; border:none;}
+    padding bottom: 30px;
+}
